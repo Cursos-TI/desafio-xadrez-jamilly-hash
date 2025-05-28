@@ -1,0 +1,106 @@
+#include <stdio.h>
+
+int main () {
+
+int i = 1;
+
+while (i <=5)
+{
+printf ("xd\n, i");
+i++;
+}
+
+
+
+
+
+int main () {
+
+    int i = 1; //variável do incremento
+
+    do{ // entrada (1x pelo menos)
+        printf ("%d\n", i); //saída
+        i++; //incremento
+
+    } while (i<- 5); //condição
+
+        /* code */
+    }
+    
+}
+
+
+
+
+
+
+int main () {
+    // inicialização, condição e incremento
+    for (int i = 1; i <= 5; i++) {
+        printf ("%d\n", i);
+    
+}
+
+
+
+
+int main () {
+    int i = 0;
+    while (i =< 10)
+    {
+       if (i % 2 == 0)
+       {
+        printf (" O número %d é par!", i);
+       }
+        i++;
+    }
+    
+}
+
+
+
+
+
+
+
+int main () {
+    int numero;
+    do
+    {
+       printf ("digite um numero par para sair do programa...\n");
+       scanf("%d, &numero");
+
+       if (numero %2 == 0){
+        printf (" %d é par!\n", numero);
+       } else {
+        printf (" %d é impar!\n", numero);
+       }
+
+    } while (numero %2 != 0);
+    printf ("Voce digitou um numero par. Saindo do programa...\n");
+    
+ 
+
+
+
+
+int main () {
+    int numero, i;
+
+    printf ("Digite um numero para calcularmos a tabuada...\n");
+    scanf ("%d, &numero");
+
+    for (i = 0; i <= 10; i++)
+    {
+      printf("%d x %d = %x \n", i, numero, i * numero);
+    }
+    
+
+
+}
+
+
+
+
+ return 0;
+}
