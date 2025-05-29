@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int main () {
+
+    for (int i = 1; i <= 10; i++){
+
+        for ( int j = 1; j <= 10; j++){
+
+            printf ("%d \n", i * j);
+
+        }
+
+        printf ("\n");
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main () {
+int i, j;
+char letra;
+
+    for (i = 1; i <= 5; i++)
+    {
+        letra = 'A';
+        
+        for (j = 1; j <= i; j++)
+        {
+            printf ("%c", letra);
+            letra++;
+        }
+
+        printf ("\n");
+    }
+
+    return 0;
+}
