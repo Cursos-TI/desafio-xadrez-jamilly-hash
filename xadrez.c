@@ -54,17 +54,14 @@ int main() {
     // um loop while aninhado para o movimento horizontal (esquerda).
     printf("Movimento do Cavalo:\n");
 
-    const int casas_baixo = 2;    // Número de casas para baixo
-    const int casas_esquerda = 1; // Número de casas para a esquerda
-
     // Loop for para a movimentação vertical (baixo)
-    for(int i = 0; i < casas_baixo; i++) {
+    for(int i = 0; i < 2; i++) {  // Número de casas para baixo
         printf("Baixo\n");        // Imprime a direção vertical por cada casa
     }
 
     // Loop while aninhado para a movimentação horizontal (esquerda)
     int l = 0;                    // Inicializa o contador do loop while
-    while(l < casas_esquerda) {
+    while(l < 1) {                // Número de casas para a esquerda
         printf("Esquerda\n");     // Imprime a direção horizontal por cada casa
         l++;                      // Incrementa o contador
     }
