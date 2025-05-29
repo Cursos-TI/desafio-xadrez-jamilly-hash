@@ -1,34 +1,46 @@
 #include <stdio.h>
 
 int main() {
-    // Mover a Torre 5 casas para a direita
+
+    // Movimentação da Torre (usando estrutura de repetição for)
+    // A Torre se move 5 casas para a direita. Para cada casa percorrida,
+    // será exibida a direção "Direita" no console.
    
     printf("Movimento da Torre:\n");
-    for(int i = 0; i < 5; i++) {
-        printf("Direita\n");
+    for(int i = 0; i < 5; i++) {  // Loop for para contar de 0 a 4 (5 vezes)
+        printf("Direita\n");  // Impressão da direção para cada casa
     }
-    printf("\n");
+    printf("\n"); // Espaço para separar a saída das outras peças
 
   
-   // Movimentação do Bispo (while): 5 casas na diagonal (Cima Direita)
+ 
+    // Movimentação do Bispo (usando estrutura de repetição while)
+    // O Bispo se move na diagonal superior direita (Cima + Direita).
+    // Para cada uma das 5 casas, imprimimos "Cima" e "Direita" para
+    // representar a movimentação diagonal (combinação de direções).
     printf("Movimento do Bispo:\n");
-    int j = 0;
-    while(j < 5) {
-        printf("Cima\n");
-        printf("Direita\n");
-        j++;
+    int j = 0;                   // Inicializa a variável de controle do loop
+    while(j < 5) {               // Continua enquanto j for menor que 5
+        printf("Cima\n");        // Direção vertical da diagonal
+        printf("Direita\n");     // Direção horizontal da diagonal
+        j++;                     // Incrementa a variável de controle
     }
-    printf("\n");
+    printf("\n"); // Espaço para separar a saída das outras peças
 
 
-    // Mover a Rainha 8 casas para a esquerda
+   
+    // Movimentação da Rainha (usando estrutura de repetição do-while)
+    // A Rainha se move 8 casas para a esquerda. Para cada casa percorrida,
+    // será exibida a direção "Esquerda" no console.
     printf("Movimento da Rainha:\n");
-    int k = 0;
+    int k = 0; // Inicializa a variável de controle do loop
     do {
-        printf("Esquerda\n");
-        k++;
-    } while(k < 8);
-    printf("\n");
+        printf("Esquerda\n"); // Impressão da direção para cada casa
+        k++; // Incrementa a variável de controle
+    } while(k < 8); // Continua enquanto k for menor que 8
+    printf("\n"); // Espaço final
+
+
 
 
 
@@ -45,5 +57,4 @@ int main() {
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.
 
-    return 0;
-}
+    return 0; // Retorno 0 indica que o programa terminou 
